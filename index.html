@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="CSS/style.css">
+
+      <title>Project: Sketchpad | Nicole Muncy</title>
+  </head>
+  <body>
+    <div id="info">
+     <h1>Sketchpad Fun</h1>
+     <ul id="howTo">
+       <li><h2>How to Draw:</h2></li>
+       <li>Click Start.</li>
+       <li>Click a revealed button to determine the number of pixels in your canvas.</li>
+       <li>Hover over the canvas with your cursor to draw.</li>
+       <li>Want to try a different color? Choose your color beneath the canvas!</li>
+       <li>You can also turn grid lines on or off, if you wish!</li>
+       <li>Click Reset to start over.</li>
+     </ul>
+    </div>
+    <div class="buttons">
+        <button id="start">Start</button>
+        <div class="sizes">
+          <button id="16">16x16</button>
+          <button id="32">32x32</button>
+          <button id="64">64x64</button>
+          <button id="custom">Custom</button>
+        </div>
+        <div class="grid">
+            <button id="on">Grid: On</button>
+            <button id="off">Grid: Off</button>
+        </div>
+        <button id="reset">Reset</button>
+    </div>
+    <div id="container">
+    </div>
+    <div class="buttons">
+        <button id="black">Black</button>
+        <button id="purple">Purple</button>
+        <button id="blue">Blue</button>
+        <button id="green">Green</button>
+        <button id="eraser">Eraser</button>
+    </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="JavaScript/application.js"></script>
+  </body>
+</html>
